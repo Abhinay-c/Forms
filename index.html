@@ -55,8 +55,51 @@
         </div>
       </div>
     </div> -->
-    <div id="card">
-        
+    <div class="container">
+      <h1>Welcome!</h1>
+      <form id="formcard" autocomplete="on">
+        <label for="fname">First name:</label><br />
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="Enter your first name"
+        /><br />
+        <label for="lname">Last name:</label><br />
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          placeholder="Enter your last name"
+        /><br />
+        <label for="phone">Phone number:</label><br />
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          placeholder="Enter your Phone number"
+          pattern="[6-9]{1}[0-9]{9}"
+        /><br />
+        <label for="year">Year of Study</label><br />
+        <select id="year">
+          <option value="none" selected disabled hidden>
+            Select an Option
+          </option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option></select
+        ><br />
+        <label for="issue">Issue:</label><br />
+        <input
+          type="text"
+          name="issue"
+          id="issue"
+          placeholder="Enter your issue"
+          autocomplete="off"
+        /><br />
+        <input type="submit" id="btn" value="SUBMIT" />
+      </form>
     </div>
   </body>
 </html>

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#fff;
+    font-family: sans-serif;
+}
+.container{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: azure;
+}
+.container h1{
+    text-transform: uppercase;
+    color: white;
+    background-color: #03C988;
+    padding: 20px 350px 20px 350px;
+    border-radius: 15px;
+}
+.container h1:hover{
+    color: #03C988;
+    background-color: white;
+    border: 1px solid black;  
+    transition: 0.5s;
+}
+#formcard{
+    margin: 50px;
+    display: grid;
+    font-size: 1.2em;
+    grid-template-columns: auto auto auto auto;
+    background-color: azure;
+    gap: 10px;
+}
+#formcard label{
+    background-color: azure;
+    font-weight: bold;
+}
+#formcard input, select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(139, 255, 255);
+    outline: none;
+}
+#formcard input:focus, select:focus{
+    border: 3px solid rgb(0, 0, 0);
+}
+#issue{
+    height: 70px;
+}
+#btn{
+    background-color: #03C988;
+    color: white;
+    font-weight: bold;
+    padding: 10px 350px 10px 350px;
+    font-size: 1em;
+}
+#btn:hover{
+    background-color: white ;
+    color: #03C988;
+    font-weight: bold;
+    font-size: 1.12em;
+}
